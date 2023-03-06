@@ -9,18 +9,17 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-
   color: #434455;
 }
 /*=============================HEADER FIRST AND SEKOND PAGE============================*/
-.part-word {
-  color: var(--font-color);
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--font-color);
 }
 .header-part-word {
   font-family: "Raleway", sans-serif;
@@ -32,6 +31,7 @@ body {
 
   color: #2e2f42;
 }
+
 .menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -44,7 +44,9 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
-
+.communication-methods: {
+  font-style: normal;
+}
 .e-mail {
   font-weight: 400;
   font-size: 16px;
