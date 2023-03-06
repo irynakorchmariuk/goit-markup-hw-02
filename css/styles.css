@@ -17,6 +17,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
 }
+address {
+  font-style: normal;
+}
 /*=============================HEADER FIRST AND SEKOND PAGE============================*/
 .logo {
   font-family: "Raleway", sans-serif;
