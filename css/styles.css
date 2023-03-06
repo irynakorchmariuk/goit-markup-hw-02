@@ -1,6 +1,9 @@
 :root {
   --font-color: #4d5ae5;
 }
+:root {
+  --color-menu: #2e2f42;
+}
 .list {
   list-style: none;
 }
@@ -38,7 +41,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  color: #2e2f42;
+  color: var(--color-menu);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -100,7 +103,7 @@ body {
 .section-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 
   color: #2e2f42;
@@ -143,6 +146,7 @@ body {
 /*=====================SECTION HERO SECOND PAGE=========================*/
 /*BUTTONS All-WebSite-App-Design-Marketing*/
 .filter-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -155,6 +159,7 @@ body {
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -187,13 +192,10 @@ body {
   color: #f4f4fd;
 }
 .footer {
-  background: #2e2f42;
-}
-.paragraph-footer {
   font-weight: 400;
   font-size: 1.5;
   line-height: 24px;
   letter-spacing: 0.02em;
-
   color: #e7e9fc;
+  background: #2e2f42;
 }
