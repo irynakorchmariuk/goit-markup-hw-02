@@ -50,29 +50,29 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
-.communication-methods: {
+.communication-methods {
   font-style: normal;
 }
-.e-mail {
+.contacts {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-nav-links);
 }
-.e-mail:hover,
-.e-mail:focus {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
-.contact-phone-number {
+.contacts {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-nav-links);
 }
-.contact-phone-number:hover,
-.contact-phone-number:focus {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
 /*=========================SECTION HERO FIRST PAGE====================== */
@@ -89,7 +89,7 @@ body {
   color: #ffffff;
 }
 .modal-btn {
-  font-style: inherit;
+  font-family:: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
