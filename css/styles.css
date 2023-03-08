@@ -143,7 +143,7 @@ body {
   letter-spacing: 0.02em;
 }
 /*==========================FOURTH SECTION====================== */
-.section-list {
+.section-list-team {
   background-color: #f4f4fd;
 }
 .links-fourth-section {
@@ -186,6 +186,9 @@ body {
   color: var(--color-nav-links);
 }
 /*FOOTER*/
+.footer {
+  background-color: var(--color-menu);
+}
 .footer-part-word {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -196,9 +199,8 @@ body {
 }
 .paragraph-footer {
   font-weight: 400;
-  font-size: 1.5;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
-  background: var(--color-menu);
 }
